@@ -1,0 +1,21 @@
+.App{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.animes-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.animes-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.animes-list img{
+    max-width: 50%;
+}
